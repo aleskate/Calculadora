@@ -1,0 +1,10 @@
+<testsuites>
+	<testsuite name="AllTests" tests="2">
+		<testcase classname="AllTests" name="sumarTest"/>
+		<testcase classname="AllTests" name="sumarTest2">
+			<failure message="..\src\Test\Test.cpp:25 sumarTest2: expected == opAri.Sumar(first,second) expected:	2	but was:	4	">
+sumarTest2: expected == opAri.Sumar(first,second) expected:	2	but was:	4	
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
