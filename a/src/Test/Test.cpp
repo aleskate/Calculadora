@@ -21,7 +21,7 @@ void sumarTest2() {
     int first, second, expected;
     first = 1;
     second = 3;
-    expected = 2;
+    expected = 4;
     ASSERT_EQUAL(expected, opAri.Sumar(first,second));
 }
 
